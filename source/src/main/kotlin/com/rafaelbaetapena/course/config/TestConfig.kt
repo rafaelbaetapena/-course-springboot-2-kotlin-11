@@ -2,11 +2,9 @@ package com.rafaelbaetapena.course.config
 
 import com.rafaelbaetapena.course.entities.User
 import com.rafaelbaetapena.course.repositories.UserRepository
-import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.CommandLineRunner
 import org.springframework.context.annotation.Configuration
 import org.springframework.context.annotation.Profile
-import java.util.*
 
 @Configuration
 @Profile("test")
